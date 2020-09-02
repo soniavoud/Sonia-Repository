@@ -1,3 +1,7 @@
 .duck {
     width: 700px;
 }
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
