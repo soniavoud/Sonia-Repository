@@ -17,58 +17,60 @@
     </head>
     
 	<body>
-        <div class="wrapper style1">
 
-				
-            <div id="header" class="skel-panels-fixed">
-                <div id="logo">
-                    <h1><a href="index.html">DAILY DOSE OF HAPPINESS</a></h1>
-                    <span class="tag">by ERRORs</span>
+    
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Daily Dose of Happiness</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="right-sidebar.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="left-sidebar.html">About Us</a>
+                  </li>
+        </nav>
+        
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Sharing is caring!</h1>
+              <p class="lead">Has anything positive happened to you over the past months? 
+                Was it something that gave you more hope and optimism for the future? 
+                If so, feel free to share it with the rest of the community to make their day and
+                share your positive views during these dark times. All stories are published in the <a href="right-sidebar.html">BLOG</a> page of our website!
+            </div>
+    
+    
+
+    
+        <div class= "container">
+            <form>
+                <div class="form-group">
+              <label for="exampleInputEmail1">Name</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">Your name will be made public.</small>
                 </div>
-                <nav id="nav">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="left-sidebar.html">About Us</a></li>
-                        <li><a href="right-sidebar.html">Blog</a></li>
-                        
-                    </ul>
-                </nav>
-            </div>
+                <div class="form-group">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              
+                </div>
+                <div class="form-group">
+                <label for="exampleInputEmail1">Your story</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">Please use 50-200 words.</small>
+              </div>
+              <button type="submit" class="hi btn btn-primary">Share story</button>
+        </form>
+        </div>
+       
 
-            <div id="banner" class="container">
-                <section>
-                    <p>Has anything positive happened to you over the past months? 
-                        Was it something that gave you more hope and optimism for the future? 
-                        If so, feel free to share it with the rest of the community to make their day and
-                        share your positive views during these dark times. All stories are published in the <a href="right-sidebar.html">BLOG</a> page of our website!
-                    </p>
-                    
-                </section>
-            </div>
-
-        <form method="post" action="#">
-        <div class="row half">
-            <div class="12u">
-                <input class="text" type="text" name="name" id="name" placeholder="Name" />
-            </div>
-        </div>
-        <div class="row half">
-            <div class="12u">
-                <input class="text" type="text" name="email" id="email" placeholder="Email" />
-            </div>
-        </div>
-        <div class="row half">
-            <div class="12u">
-                <textarea name="story" id="story" placeholder="Story"></textarea>
-            </div>
-        </div>
-        <div class="row half">
-            <div class="12u">
-                <ul class="actions">
-                    <li>
-                        <input type="submit" value="Send Story" class="button alt" />
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </form></body>
+        
+    </body>
