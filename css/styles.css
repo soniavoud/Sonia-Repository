@@ -10,3 +10,19 @@
     margin: 50px auto;
     display: block;
 }
+
+.sign-in {
+    margin: 50px auto;
+    display: block;
+}
+
+.bye {
+    margin: 50px;
+    display: block;
+    align-self: center;
+}
+
+.hi {
+    margin-bottom: 100px;
+    display: block;
+}
