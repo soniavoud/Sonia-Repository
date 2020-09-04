@@ -28,7 +28,19 @@
 }
 
 
-  
+.jumbotron {
+    background-color:aliceblue;
+}
+
+
+
+.btn {
+    background-color: #B284BE;
+}
+
+body {
+    background-color:#EECCFF;
+}
   
 .icon-bar {
     position: fixed;
